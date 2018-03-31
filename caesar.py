@@ -1,6 +1,6 @@
 from helpers import rotate_character
 
-def encrypt(message, rotation):
+def rotate_string(message, rotation):
     encryption = ""
     for char in message:
         if(char.isalpha()):
